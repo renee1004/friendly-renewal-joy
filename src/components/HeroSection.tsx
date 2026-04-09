@@ -48,10 +48,10 @@ const HeroSection = () => {
 
         {/* Main display text */}
         <h1 className="animate-fade-up text-display text-foreground">
-          Design Solution Group
+          Experience Design, Sales Innovation
         </h1>
         <div className="animate-fade-up animation-delay-200 flex items-baseline gap-4">
-          <span className="text-display italic font-extralight text-foreground/80">for</span>
+          <span className="text-display italic font-extralight text-foreground/80 rounded-2xl shadow-md">for</span>
           <span className="text-display text-foreground">POSI</span>
         </div>
 

@@ -8,9 +8,7 @@ const AboutSection = () => {
       <div className="grid gap-16 md:grid-cols-2">
         <div>
           <h2 className="text-heading leading-snug text-foreground">
-            포시는 끝을 맺기를
-            <br />
-            처음과 같이 합니다.
+            WE ARCHITECT THE RETAIL EXPERIENCE.
           </h2>
         </div>
         <div className="flex flex-col justify-center">
