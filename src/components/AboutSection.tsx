@@ -12,11 +12,11 @@ const AboutSection = () => {
           </h2>
         </div>
         <div className="flex flex-col justify-center">
-          <p className="text-2xl font-light leading-loose text-muted-foreground md:text-3xl">
+          <p className="text-xl font-light leading-loose text-muted-foreground md:text-3xl">
             작은 것 하나도 놓치지 않고 확실한 결과물을 만들기 위해
             항상 고민하고 소통합니다.
           </p>
-          <p className="mt-6 text-base font-light leading-loose text-muted-foreground md:text-lg">
+          <p className="mt-6 text-xl font-light leading-loose text-muted-foreground md:text-lg">
             "소통"을 기본으로 혁신적인 기술과 창의력을 더해
             고객의 만족을 감동으로 전하겠습니다.
           </p>
