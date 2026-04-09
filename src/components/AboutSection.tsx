@@ -12,7 +12,7 @@ const AboutSection = () => {
           </h2>
         </div>
         <div className="flex flex-col justify-center">
-          <p className="text-base font-light leading-loose text-muted-foreground md:text-lg">
+          <p className="text-lg font-light leading-loose text-muted-foreground md:text-xl">
             작은 것 하나도 놓치지 않고 확실한 결과물을 만들기 위해
             항상 고민하고 소통합니다.
           </p>
