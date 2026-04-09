@@ -47,7 +47,7 @@ const HeroSection = () => {
         </div>
 
         {/* Main display text */}
-        <h1 className="animate-fade-up text-display text-foreground" style={{ wordSpacing: '5px' }}>
+        <h1 className="animate-fade-up text-display text-foreground">
           Experience Design, Sales Innovation
         </h1>
 
