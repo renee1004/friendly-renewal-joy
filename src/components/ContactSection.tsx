@@ -49,4 +49,40 @@ const ContactSection = () => {
                     placeholder={label}
                     value={form[key as keyof typeof form]}
                     onChange={(e) => setForm({ ...form, [key]: e.target.value })}
-                    className="bg-white/5 border border-white/10 px-4 py-3 text-xs text-foreground placeho
+                    className="bg-white/5 border border-white/10 px-4 py-3 text-xs text-foreground placeholder:text-foreground/40 placeholder:tracking-[0.2em] focus:outline-none focus:border-white/40 transition-colors tracking-widest mb-1"
+                  />
+                ))}
+                <textarea
+                  required
+                  rows={8}
+                  placeholder="MESSAGE"
+                  value={form.message}
+                  onChange={(e) => setForm({ ...form, message: e.target.value })}
+                  className="bg-white/5 border border-white/10 px-4 py-3 text-xs text-foreground placeholder:text-foreground/40 placeholder:tracking-[0.2em] focus:outline-none focus:border-white/40 transition-colors tracking-widest resize-none mb-1"
+                />
+                <button
+                  type="submit"
+                  className="w-full border border-orange-500/70 py-4 text-xs tracking-[0.3em] text-foreground hover:bg-orange-500/10 transition-all duration-300 flex items-center justify-center gap-6 mt-1"
+                >
+                  SEND MESSAGE
+                  <span className="w-8 h-px bg-foreground/40 inline-block"></span>
+                </button>
+              </form>
+            )}
+          </div>
+
+        </div>
+      </div>
+
+      <div className="flex flex-col md:flex-row justify-between items-start md:items-end gap-8">
+        <div className="flex gap-6">
+          <a href="https://www.instagram.com/posiinc/" target="_blank" rel="noopener noreferrer" className="text-xs text-foreground/50 hover:text-foreground transition-colors tracking-widest uppercase">Instagram</a>
+          <a href="https://www.facebook.com/profile.php?id=100063991992599" target="_blank" rel="noopener noreferrer" className="text-xs text-foreground/50 hover:text-foreground transition-colors tracking-widest uppercase">Facebook</a>
+        </div>
+        <p className="text-xs text-foreground/20 tracking-widest">© 2025 RENEE. ALL RIGHTS RESERVED.</p>
+      </div>
+    </section>
+  );
+};
+
+export default ContactSection;
