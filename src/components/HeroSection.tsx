@@ -48,7 +48,9 @@ const HeroSection = () => {
 
         {/* Main display text */}
         <h1 className="animate-fade-up text-display text-foreground">
-          Experience Design, Sales Innovation
+          WE ARCHITECT<br />
+          THE RETAIL<br />
+          EXPERIENCE.
         </h1>
 
         {/* Scroll indicator */}
