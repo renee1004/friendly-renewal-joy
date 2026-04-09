@@ -50,9 +50,6 @@ const HeroSection = () => {
         <h1 className="animate-fade-up text-display text-foreground">
           Experience Design, Sales Innovation
         </h1>
-        <div className="animate-fade-up animation-delay-200 flex items-baseline gap-4">
-          <span className="text-display text-foreground">POSI</span>
-        </div>
 
         {/* Scroll indicator */}
         <div className="animate-fade-in animation-delay-800 mt-12 flex justify-center">
